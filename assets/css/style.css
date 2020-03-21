@@ -83,15 +83,58 @@ section {
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .primary-border {
   border-color: black;
 }
 .section-title {
   font-size: 48px;
-  border-bottom: 3px solid;
-  color: black;
   padding-bottom: 20px;
   text-align: left;
-  margin: 0 auto 35px auto;
-  width: 50%;
+  margin: 0 auto 0 0;
+}
+
+.intro {
+  text-align: left;
+}
+
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-right: 10px;
+  padding: 0px 10px 0px 0px;
+  border-right: 3px solid;
+  border-color: black;
+  display: inline;
+  float: left;
+}
+
+.grid-container {
+  display: grid;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-info {
+  display: inline;
+  border-bottom: 3px solid;
+  border-color: black;
+}
+
+footer {
+  background: var(--primary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
