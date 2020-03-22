@@ -74,7 +74,7 @@ header nav ul li {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 2.55vw;
 }
 
 section {
@@ -90,8 +90,18 @@ section {
 .section-title {
   font-size: 48px;
   padding-bottom: 20px;
-  text-align: left;
   margin: 0 auto 0 0;
+  text-align: right;
+  padding: 0px 10px 0px 10px;
+  flex: 1 1;
+  height: 100%;
+  width: 20%;
+}
+
+.section-info {
+  padding-left: 20px;
+  flex: 3 3;
+  color: #465671;
 }
 
 .intro {
@@ -102,7 +112,6 @@ section {
   font-size: 55px;
   color: #024e76;
   margin-right: 10px;
-  padding: 0px 10px 0px 0px;
   border-right: 3px solid;
   border-color: black;
   display: inline;
@@ -137,4 +146,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.contact-info {
+  display: inline;
 }
