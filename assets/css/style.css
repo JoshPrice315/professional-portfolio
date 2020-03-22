@@ -105,6 +105,10 @@ section {
   color: #465671;
 }
 
+.section-info img {
+  width: 20%;
+}
+
 .intro {
   text-align: left;
 }
